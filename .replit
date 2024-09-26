@@ -1,0 +1,10 @@
+compile = "swiftc -o main $(find . -type f -name '*.swift')"
+
+run = ["./main"]
+
+entrypoint = "main.swift"
+
+modules = ["swift"]
+
+[nix]
+channel = "stable-24_05"
